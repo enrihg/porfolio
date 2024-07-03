@@ -11,24 +11,24 @@ import iconLinux from "../assets/icons/linux.png"
 import iconFigma from "../assets/icons/figma.png"
 
 function Skills() {
-    return (
-      <section id="skills">
-        <h2 className="font-bold text-2xl">Habilidades</h2>
-        <div>
-          <div><img src={iconHtml} alt="HTML" />HTML</div>
-          <div><img src={iconCss} alt="CSS" />CSS</div>
-          <div><img src={iconJavascript} alt="JavaScript" />JavaScript</div>
-          <div><img src={iconTypescript} alt="TypeScript" />TypeScript</div>
-          <div><img src={iconReact} alt="React" />React</div>
-          <div><img src={iconSass} alt="Sass" />SaSS</div>
-          <div><img src={iconTailwind} alt="Tailwind" />Tailwind</div>
-          <div><img src={iconGit} alt="Git" />Git</div>
-          <div><img src={iconGithub} alt="GitHub" />GitHub</div>
-          <div><img src={iconLinux} alt="Linux" />Linux</div>
-          <div><img src={iconFigma} alt="Figma" />Figma</div>
-        </div>
-      </section>
-    )
+  return (
+    <section id="skills" className="px-4 border-b border-gray-700 pb-16 mb-16">
+      <h2 className="text-2xl mb-4">Habilidades</h2>
+      <ul className="grid grid-cols-4 gap-y-6">
+        <li className="text-center"><img src={iconHtml} alt="HTML" className="w-12 h-12 pb-1 mx-auto" />HTML</li>
+        <li className="text-center"><img src={iconCss} alt="CSS" className="w-12 h-12 pb-1 mx-auto" />CSS</li>
+        <li className="text-center"><img src={iconJavascript} alt="JavaScript" className="w-12 h-12 pb-1 mx-auto" />JavaScript</li>
+        <li className="text-center"><img src={iconTypescript} alt="TypeScript" className="w-12 h-12 pb-1 mx-auto" />TypeScript</li>
+        <li className="text-center"><img src={iconReact} alt="React" className="w-12 h-12 pb-1 mx-auto" />React</li>
+        <li className="text-center"><img src={iconSass} alt="Sass" className="w-12 h-12 mx-auto" />SaSS</li>
+        <li className="text-center"><img src={iconTailwind} alt="Tailwind" className="w-12 h-12 pb-1 mx-auto" />Tailwind</li>
+        <li className="text-center"><img src={iconGit} alt="Git" className="w-12 h-12 pb-1 mx-auto" />Git</li>
+        <li className="text-center"><img src={iconGithub} alt="GitHub" className="w-12 h-12 pb-1 mx-auto" />GitHub</li>
+        <li className="text-center"><img src={iconLinux} alt="Linux" className="w-12 h-12 pb-1 mx-auto" />Linux</li>
+        <li className="text-center"><img src={iconFigma} alt="Figma" className="w-12 h-12 pb-1 mx-auto" />Figma</li>
+      </ul>
+    </section>
+  )
 }
 
 export default Skills

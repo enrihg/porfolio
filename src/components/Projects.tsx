@@ -8,7 +8,7 @@ import githubIcon from "../assets/icons/bxl-github.png"
 
 function Projects() {
   return (
-    <section id="proyects" className="px-4">
+    <section id="proyects" className="px-4 border-b border-gray-700 pb-16 mb-16">
       <h2 className="text-2xl">Proyectos</h2>
       <p className="dark:text-250">Estos son algunos de los proyectos seleccionados que muestran mi pasión por el desarrollo front-end.</p>
       <article className="my-10">
