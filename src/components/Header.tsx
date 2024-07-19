@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <>
-      <nav className="sticky top-0 flex justify-between items-center p-4 bg-1000">
+      <nav className="fixed top-0 w-screen flex justify-between items-center p-4 bg-1000">
         <a href="#" className="dark:text-white an">ENRIQUE HAUENSTEIN</a>
         <ul className="hidden">
           <li><a href="#proyects">Proyectos</a></li>
@@ -26,16 +26,19 @@ function Header() {
           <div style={{ animationFillMode: 'forwards' }} className={`w-7 h-[3px] my-[4px] dark:bg-50 rounded-lg ${isAnimated ? 'animate-bar3' : ''}`}></div>
         </button>
       </nav>
-      <nav className={`fixed top-[56px] right-[-100%] transition ${isOpen ? "translate-x-[-100%]" : ""} h-screen w-full flex flex-col justify-center items-center gap-5 text-2xl dark:text-100 bg-950 opacity-95`}>
-        <a href="#proyects">Proyectos</a>
-        <a href="#skills">Tecnologías</a>
-        <a href="#contact">Contacto</a>
-        <a href="#">Ver CV</a>
-        <button>Idioma</button>
-        <button>Light/dark</button>
+      <nav className={`fixed top-[56px] right-[-100%] transition ${isOpen ? "translate-x-[-100%]" : ""} h-screen w-full  text-2xl dark:text-100 bg-950 opacity-95`}>
+        <div onClick={() => { setIsOpen(!isOpen); setIsAnimated(!isAnimated) }} className="h-screen flex flex-col justify-center items-center gap-5">
+          <a href="#header">Inicio</a>
+          <a href="#proyects">Proyectos</a>
+          <a href="#skills">Tecnologías</a>
+          <a href="#contact">Contacto</a>
+          <a href="#">Ver CV</a>
+          <button>Idioma</button>
+          <button>Light/dark</button>
+        </div>
       </nav>
-      <header className="border-b border-gray-700 pb-16 px-4 mb-16">
-        <h1 className="dark:text-white text-[40px] pr-6">Hola, soy <span className="text-500">Enrique</span></h1>
+      <header id="header" className="border-b border-gray-700 pb-16 px-4 mb-16">
+        <h1 className="dark:text-white text-[40px] leading-[50px] pt-[65px] pr-6">Hola, soy <span className="text-500">Enrique</span></h1>
         <p className="my-3 dark:text-300"> ^ Front-end developer</p>
         <p className="mb-8">// Me apasiona construir aplicaciones web desde cero, traduciendo ideas en experiencias fáciles de usar robustas y escalables.</p>
         <div className="flex items-center gap-4 mb-12">
