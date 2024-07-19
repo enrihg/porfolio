@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        'bar1': 'bar1 1s',
+        'bar2': 'bar2 1s',
+        'bar3': 'bar3 1s'
+      },
       colors: {
         '50': '#f2f8fd',
         '100': '#e5eff9',
@@ -23,6 +28,20 @@ export default {
       },
       fontFamily: {
         'inter': ['Inter', 'sans-serif']
+      },
+      keyframes: {
+        bar1: {
+          '0%': { rotate: '0deg'},
+          '100%': { rotate: '45deg', transform: 'translate(2px, 8px)'}
+        },
+        bar2: {
+          '0%': { transform: 'scale(1)', opacity: '1' },
+          '100%': { transform: 'scale(0)', opacity: '0'},
+        },
+        bar3: {
+          '0%': { rotate: '0deg'},
+          '100%': {  rotate: '-45deg' , transform: 'translate(2px, -8px)'},
+        },
       }
     },
   },

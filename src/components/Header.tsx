@@ -3,12 +3,12 @@ import { useState } from "react"
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const toggleDrawer = () => setIsOpen(!isOpen)
+  const [isAnimated, setIsAnimated] = useState(false);
 
   return (
     <>
       <nav className="sticky top-0 flex justify-between items-center p-4 bg-1000">
-        <a href="#" className="dark:text-white">ENRIQUE HAUENSTEIN</a>
+        <a href="#" className="dark:text-white an">ENRIQUE HAUENSTEIN</a>
         <ul className="hidden">
           <li><a href="#proyects">Proyectos</a></li>
           <li><a href="#skills">Tecnologías</a></li>
@@ -18,7 +18,11 @@ function Header() {
           <button>Idioma</button>
           <button>Light/dark</button>
         </div>
-        <button onClick={toggleDrawer} className="text-xl">=</button>
+        <button onClick={() => { setIsOpen(!isOpen); setIsAnimated(!isAnimated) }} className="text-xl">
+          <div style={{ animationFillMode: 'forwards', }} className={`w-7 h-[3px] my-[4px] dark:bg-50 rounded-lg ${isAnimated ? 'animate-bar1' : ''}`}></div>
+          <div style={{ animationFillMode: 'forwards' }} className={`w-7 h-[3px] my-[4px] dark:bg-50 rounded-lg ${isAnimated ? 'animate-bar2' : ''}`}></div>
+          <div style={{ animationFillMode: 'forwards' }} className={`w-7 h-[3px] my-[4px] dark:bg-50 rounded-lg ${isAnimated ? 'animate-bar3' : ''}`}></div>
+        </button>
       </nav>
       <nav className={`fixed top-[60px] right-[-100%] transition ${isOpen ? "translate-x-[-100%]" : ""} h-screen w-full flex flex-col justify-center items-center gap-5 text-2xl dark:text-100 bg-950 opacity-95`}>
         <a href="#proyects">Proyectos</a>
