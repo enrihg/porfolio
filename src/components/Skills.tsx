@@ -12,8 +12,8 @@ import iconFigma from "../assets/icons/figma.png"
 
 function Skills() {
   return (
-    <section id="skills" className="px-4 border-b border-gray-700 pt-[65px] pb-16 mb-16">
-      <h2 className="text-2xl mb-6">Tecnologías</h2>
+    <section id="skills" className="px-4 border-b border-gray-700 pt-[65px] pb-16">
+      <h2 className="text-2xl mb-6 font-medium text-950">Tecnologías</h2>
       <ul className="grid grid-cols-4 gap-y-6">
         <li className="text-center"><img src={iconHtml} alt="HTML" className="w-12 h-12 pb-1 mx-auto" />HTML</li>
         <li className="text-center"><img src={iconCss} alt="CSS" className="w-12 h-12 pb-1 mx-auto" />CSS</li>

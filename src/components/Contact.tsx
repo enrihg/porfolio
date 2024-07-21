@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <section id="contact" className="pt-[65px]">
-      <h2 className="mb-6 text-2xl">Contacto</h2>
+      <h2 className="mb-6 text-2xl font-medium text-950">Contacto</h2>
       <form action="">
         <label htmlFor="name">Nombre</label>
         <input id="name" type="text" placeholder="Nombre" />
