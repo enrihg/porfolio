@@ -9,7 +9,7 @@ import githubIcon from "../assets/icons/bxl-github.png"
 function Projects() {
   return (
     <section id="proyects" className="px-4 border-b border-gray-700 pt-[65px] pb-16">
-      <h2 className="mb-6 text-2xl font-medium">Proyectos</h2>
+      <h2 className="mb-6 text-2xl font-medium text-1000 dark:text-white">Proyectos</h2>
       <p className="text-800 dark:text-250">Estos son algunos de los proyectos seleccionados que muestran mi pasión por el desarrollo front-end.</p>
       <article className="my-10">
         <a href="https://galleria-slideshow-app.netlify.app/" target="_blank" className="block px-4 py-8 bg-200 dark:bg-950 rounded-lg"><img src={galleria} alt="galleria preview" className="rounded-lg" /></a>

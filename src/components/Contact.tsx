@@ -1,26 +1,26 @@
+import linkedInIcon from "../assets/icons/bxl-linkedin.png"
+import githubIcon from "../assets/icons/bxl-github2.png"
+
 function Contact() {
   return (
-    <section id="contact" className="pt-[65px]">
-      <h2 className="mb-6 text-2xl font-medium text-950">Contacto</h2>
+    <section id="contact" className="pt-[65px] pb-4 px-4">
+      <h2 className="mb-6 text-2xl font-medium text-1000 dark:text-white">Estemos en contacto</h2>
+      <div className="flex gap-4 mb-6">
+        <a href="https://www.linkedin.com/in/enrique-hauenstein-8093662a4" target="_blank" className="flex justify-center items-center w-10 h-10 dark:bg-1000 border-2 border-600 dark:border-400 rounded-full"><img src={linkedInIcon} alt="linkedIn icon" className="w-[26px] h-[26px]" /></a>
+        <a href="https://github.com/enrihg" target="_blank" className="flex justify-center items-center w-10 h-10 dark:bg-1000 border-2 border-600 dark:border-400 rounded-full"><img src={githubIcon} alt="github icon" className="w-[26px] h-[26px]" /></a>
+      </div>
       <form action="">
-        <label htmlFor="name">Nombre</label>
-        <input id="name" type="text" placeholder="Nombre" />
-        <label htmlFor="email">Correo electrónico</label>
-        <input id="email" type="email" placeholder="Correo electrónico" />
-        <label htmlFor="message">Escribe tu mensaje</label>
-        <input id="message" type="text" placeholder="Escribe tu mensaje" />
-        <button>Enviar</button>
+        <label htmlFor="name" className="text-1000 dark:text-250 font-medium">Nombre</label>
+        <input id="name" type="text" name="name" placeholder="Nombre" className="block w-full mt-2 mb-6 px-4 py-[10px] rounded-[4px] bg-200 dark:bg-950 placeholder:text-1000 dark:placeholder:text-white" />
+        <label htmlFor="email" className="text-1000 dark:text-250 font-medium">Correo electrónico</label>
+        <input id="email" type="email" name="email" placeholder="Correo electrónico" className="block w-full mt-2 mb-6 px-4 py-[10px] rounded-[4px] bg-200 dark:bg-950 placeholder:text-1000 dark:placeholder:text-white" />
+        <label htmlFor="subject" className="text-1000 dark:text-250 font-medium">Asunto</label>
+        <input id="subject" type="text" name="subject" placeholder="Asunto" className="block w-full mt-2 mb-6 px-4 py-[10px] rounded-[4px] bg-200 dark:bg-950 placeholder:text-1000 dark:placeholder:text-white" />
+        <label htmlFor="message" className="text-1000 dark:text-250 font-medium">Escribe tu mensaje</label>
+        <textarea id="message" name="message" placeholder="Escribe tu mensaje" rows={5} className="block w-full mt-2 mb-6 px-4 py-[10px] rounded-[4px] bg-200 dark:bg-950 placeholder:text-1000 dark:placeholder:text-white" />
+        <button className="flex justify-center items-center w-[100px] h-[45px] bg-600 dark:bg-400 text-50 dark:text-1000 font-semibold text-[14px] rounded-[100px]">ENVIAR</button>
       </form>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente facilis voluptate neque, nostrum fugit accusamus distinctio officiis nulla? Enim odio dolorum, aperiam eius voluptate aspernatur cupiditate eaque expedita maxime. Molestias!
-      Corporis id libero soluta consequuntur aspernatur quo quisquam dignissimos. Perferendis neque perspiciatis velit corrupti incidunt recusandae, nostrum nulla sed obcaecati reiciendis molestiae quis, excepturi reprehenderit, rerum commodi? Officia, nam nostrum!
-      Exercitationem beatae veritatis non, amet ducimus repudiandae voluptatibus repellat error consequatur eum recusandae iste, dolorem quasi sequi nihil, quos repellendus facilis dolores nesciunt eveniet? Pariatur beatae laborum odit sit officiis!
-      Aliquam suscipit facilis vel voluptate, exercitationem aspernatur quos ullam fuga eveniet est porro optio quibusdam repudiandae alias. Quae animi quis dolorem beatae magni dignissimos tempora. Illum vel repudiandae eveniet non?
-      Vero excepturi aliquam eligendi voluptatum repudiandae distinctio possimus iste rem temporibus molestias consequatur fugiat velit cum aut, accusantium perferendis, quis eveniet. Doloribus, cupiditate earum. Laudantium molestias similique facere adipisci nisi?
-      Corporis saepe ratione alias magni sapiente similique! Earum excepturi quisquam maiores culpa molestias id a obcaecati itaque asperiores rem eum, facere ipsum quasi fugit beatae veniam tempore labore soluta incidunt.
-      Iure quis hic illum, voluptates obcaecati fuga quidem facilis quaerat alias corrupti animi ullam, maxime sit! Delectus tenetur saepe voluptates odio sint! Autem ipsa laboriosam aperiam, suscipit consequatur exercitationem laborum.
-      Nobis vel veniam sint culpa consequatur vero ut quaerat nihil quia pariatur. Culpa tenetur dignissimos eaque reprehenderit distinctio ab, quia ullam labore reiciendis. Aperiam blanditiis necessitatibus amet est quas explicabo!
-      Beatae, fugiat! Suscipit earum eaque quibusdam asperiores rerum vitae perspiciatis, nam recusandae omnis facere pariatur ipsum quidem labore qui quos totam, rem aliquam magnam modi id consequuntur? Dignissimos, autem inventore?
-      Nisi dicta ullam iste dolore dolorum facere, rerum, eveniet impedit quidem nulla, voluptate beatae? Voluptatum quo et excepturi non itaque ipsam dolorem, neque laboriosam, illum, commodi rem suscipit nesciunt quibusdam.
+      <div className="mt-8">2024 Diseñado por <a href="https://www.behance.net/evevilllar" target="_blank" className="text-600 font-medium">Eve Villar</a></div>
     </section>
   )
 }

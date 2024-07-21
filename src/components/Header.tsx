@@ -66,7 +66,7 @@ function Header() {
           <a href="https://www.linkedin.com/in/enrique-hauenstein-8093662a4" target="_blank" className="flex justify-center items-center w-10 h-10 dark:bg-1000 border-2 border-600 dark:border-400 rounded-full"><img src={linkedInIcon} alt="linkedIn icon" className="w-[26px] h-[26px]" /></a>
           <a href="https://github.com/enrihg" target="_blank" className="flex justify-center items-center w-10 h-10 dark:bg-1000 border-2 border-600 dark:border-400 rounded-full"><img src={githubIcon} alt="github icon" className="w-[26px] h-[26px]" /></a>
         </div>
-        <img className="dark:border- dark:border-500 p-1 rounded-full" src={profile} alt="profile picture" />
+        <img className="dark:border-[1px] dark:border-500 p-1 rounded-full" src={profile} alt="profile picture" />
       </header>
     </>
   )
