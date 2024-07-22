@@ -1,0 +1,52 @@
+{
+  "header": {
+    "greeting": "Hello, I'm",
+    "role": "Frontend developer",
+    "aboutMe": "I am passionate about building web applications from scratch, translating ideas into robust and scalable user-friendly experiences.",
+    "contact": "CONTACT"
+  },  
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "technologies": "Technologies",
+    "contact": "Contact"
+  },
+  "projects": {
+    "projects": "Projects",
+    "about": "These are some of the selected projects that show my passion for frontend development.",
+    "liveDemo": "LIVE DEMO",
+    "seeOnGithub": "SEE ON GITHUB ",
+    "galleria": {
+      "title": "Art gallery",
+      "description": "The project consists of a gallery of works of art by different artists."
+    },
+    "clock": {
+      "title": "Clock",
+      "description": "In this project I built a web application that interacts with several APIs to obtain data such as time, date, city, time zone, etc. according to the location (IP) of the user and another API that generates random phrases. The background image varies depending on whether it is night or day, as well as the greeting and the icon."
+    },
+    "todo": {
+      "title": "Todo list",
+      "description": "The project consists of an application to create to-do lists."
+    },
+    "calculator": {
+      "title": "Calculator",
+      "description": "In this project I created a basic calculator with the option to switch between 3 available themes."
+    },
+    "githubUserSearch": {
+      "title": "Github user search app",
+      "description": "The project consists of an application to search for Github users."
+    }
+  },
+  "technologies": {
+    "title": "Technologies"
+  },
+  "contact": {
+    "title": "Let's connect",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "SUBMIT",
+    "designedBy": "2024 Designed with 💙 by"
+  }
+}

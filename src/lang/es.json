@@ -1,0 +1,53 @@
+{
+  "header": {
+    "greeting": "Hola, soy",
+    "role": "Desarrollador Frontend",
+    "aboutMe": "Me apasiona construir aplicaciones web desde cero, traduciendo ideas en experiencias fáciles de usar robustas y escalables.",
+    "contact": "CONTACTO"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "technologies": "Tecnologías",
+    "contact": "Contacto"
+  },
+  "projects": {
+    "projects": "Proyectos",
+    "about": "Estos son algunos de los proyectos seleccionados que muestran mi pasión por el desarrollo frontend.",
+    "liveDemo": "VER DEMO",
+    "seeOnGithub": "VER EN GITHUB ",
+    "galleria": {
+      "title": "Galería de arte",
+      "description": "El proyecto consta de una galería de obras de arte de distintos artistas."
+    },
+    "clock": {
+      "title": "Reloj",
+      "description": "En este proyecto armé una aplicación web que interactúa con varias APIs para obtener datos tales como la hora, fecha, ciudad, zona horaria, etc según la ubicación (IP) del usuario y otra API que genera frases de forma aleatoria. La imagen del fondo varía según si es de noche o de día, al igual que el saludo y el ícono."
+    },
+    "todo": {
+      "title": "Lista de tareas",
+      "description": "El proyecto consta de una aplicación para crear listas de tareas pendientes."
+    },
+    "calculator": {
+      "title": "Calculadora",
+      "description": "En este proyecto cree una calculadora básica con la opción de cambiar entre 3 temas disponibles."
+    },
+    "githubUserSearch": {
+      "title": "App de búsqueda de usuarios de Github",
+      "description": "El proyecto consta de una aplicación para buscar usuarios de Github."
+    }
+  },
+  "technologies": {
+    "title": "Tecnologías"
+  },
+  "contact": {
+    "title": "Estemos en contacto",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "submit": "ENVIAR",
+    "designedBy": "2024 Diseñado con 💙 por"
+
+  }
+}
