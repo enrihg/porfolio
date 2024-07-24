@@ -33,7 +33,7 @@
       "description": "En este proyecto cree una calculadora básica con la opción de cambiar entre 3 temas disponibles."
     },
     "githubUserSearch": {
-      "title": "App de búsqueda de usuarios de Github",
+      "title": "Buscador de usuarios de Github",
       "description": "El proyecto consta de una aplicación para buscar usuarios de Github."
     }
   },
