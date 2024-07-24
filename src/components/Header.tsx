@@ -66,7 +66,7 @@ function Header() {
       </nav>
       <header id="header" className="border-b border-gray-700 pb-16 px-4">
         <h1 className="text-800 dark:text-white text-[40px] leading-[50px] pt-[65px] pr-6">{t("header.greeting")}<span className="text-600"> Enrique</span></h1>
-        <p className="my-3 text-800 dark:text-200"> &gt; {t("header.role")}</p>
+        <p className="my-3 text-800 dark:text-200 font-firaCode font-medium"> &gt; {t("header.role")}</p>
         <p className="mb-8 text-1000 dark:text-100">// {t("header.aboutMe")}</p>
         <div className="flex items-center gap-4 mb-12">
           <a href="#contact" className="flex justify-center items-center px-5 py-[10px] bg-600 hover:bg-700 active:bg-800 dark:bg-400 hover:dark:bg-500 active:dark:bg-600 text-50 dark:text-1000 font-semibold text-[14px] rounded-[100px]">{t("header.contact")}</a>

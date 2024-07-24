@@ -28,7 +28,8 @@ export default {
         '1000':'#0B1925',
       },
       fontFamily: {
-        'inter': ['Inter', 'sans-serif']
+        'inter': ['Inter', 'sans-serif'],
+        'firaCode': ['FiraCode', 'sans-serif'],
       },
       keyframes: {
         bar1: {
