@@ -11,11 +11,11 @@ import iconLinux from "../assets/icons/linux.png"
 import iconFigma from "../assets/icons/figma.png"
 import { useTranslation } from "react-i18next";
 
-function Skills() {
+function Technologies() {
   const [t] = useTranslation("global");
 
   return (
-    <section id="skills" className="px-4 border-b border-gray-700 pt-[65px] pb-16">
+    <section id="technologies" className="px-4 border-b border-gray-700 pt-[65px] pb-16">
       <h2 className="text-2xl mb-6 font-medium text-1000 dark:text-white">{t("technologies.title")}</h2>
       <ul className="grid grid-cols-4 gap-y-6">
         <li className="text-center"><img src={iconHtml} alt="HTML" className="w-12 h-12 pb-1 mx-auto" />HTML</li>
@@ -34,4 +34,4 @@ function Skills() {
   )
 }
 
-export default Skills
+export default Technologies
