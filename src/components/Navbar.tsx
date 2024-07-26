@@ -39,7 +39,7 @@ function Navbar({ isOpen, setIsOpen, isAnimated, setIsAnimated }: ComponentProps
   const currentLanguage = i18n.language;
 
   return (
-    <nav className="fixed top-0 z-10 w-screen flex justify-between items-center p-4 text-1000 bg-50 dark:bg-1000">
+    <nav className="fixed top-0 z-10 w-screen sm:px- flex justify-between items-center p-4 sm:px-[5%] md:px-[7.5%] lg:px-[10%] xl:px-[12.5%] text-1000 bg-50 dark:bg-1000 shadow-sm dark:shadow-[#132a3e]">
       <a href="#" className="text-1000 hover:text-700 active:text-800 dark:text-white dark:hover:text-500 dark:active:text-600">Enrique Hauenstein</a>
       <ul className="hidden sm:flex gap-8 ">
         <li className="text-1000 hover:text-700 active:text-800 dark:text-white dark:hover:text-500 dark:active:text-600"><a href="#projects">{t("navbar.projects")}</a></li>

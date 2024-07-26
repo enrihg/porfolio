@@ -19,12 +19,12 @@ function Project({ name, img, linkApp, linkGithub, technologies }: ComponentProp
 	const [t] = useTranslation("global");
 
 	return (
-		<article className="my-10 pb-10 sm:flex">
-			<a href={linkApp} target="_blank" className="block px-4 py-6 bg-100 dark:bg-950 rounded-lg hover:scale-105 transition"><img src={img} alt="project preview" className="rounded-lg" /></a>
+		<article className="max-w-[460px] md:max-w-none m-auto my-10 pb-10 md:pb-0 md:flex md:items-start lg:items-center md:gap-8">
+			<a href={linkApp} target="_blank" className="block md:max-w-[45%] xl:max-w-[450px] px-4 py-6 bg-100 dark:bg-950 rounded-lg hover:scale-105 transition"><img src={img} alt="project preview" className="rounded-lg" /></a>
 			<div>
-				<h3 className="mt-6 mb-4 font-medium text-xl text-950 dark:text-white">{t(`projects.${name}.title`)}</h3>
+				<h3 className="mt-6 md:mt-0 mb-4 font-medium text-xl xl:text-2xl text-950 dark:text-white">{t(`projects.${name}.title`)}</h3>
 				<p className="text-800 dark:text-250 mb-4">{t(`projects.${name}.description`)}</p>
-				<ul className="flex flex-wrap gap-x-8 gap-y-4 mb-4">
+				<ul className="flex flex-wrap gap-x-4 gap-y-4 mb-4">
 					{technologies.map((tech) => (
 						<li className="bg-200 dark:bg-950 text-800 dark:text-400 font-medium rounded-lg px-3 py-[3px]">{tech}</li>
 					))}
