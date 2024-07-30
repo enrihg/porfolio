@@ -22,7 +22,7 @@
     },
     "clock": {
       "title": "Clock",
-      "description": "In this project I built a web application that interacts with several APIs to obtain data such as time, date, city, time zone, etc. according to the location (IP) of the user and another API that generates random phrases. The background image varies depending on whether it is night or day, as well as the greeting and the icon."
+      "description": "The application displays the time and location of the visitor according to his IP. The wallpaper adapts according to the time of day. Random phrases are also displayed."
     },
     "todo": {
       "title": "Todo list",
@@ -44,9 +44,12 @@
     "title": "Let's connect",
     "name": "Name",
     "email": "Email",
-    "subject": "Subject",
     "message": "Message",
     "submit": "SUBMIT",
-    "designedBy": "2024 Designed with 💙 by"
+    "designedBy": "2024 Designed with 💙 by",
+    "messageSent": {
+      "title": "Message Sent!",
+      "description": "Your message has been sent successfully, i hope to respond within 24 hours."
+    }
   }
 }

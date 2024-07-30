@@ -22,7 +22,7 @@
     },
     "clock": {
       "title": "Reloj",
-      "description": "En este proyecto armé una aplicación web que interactúa con varias APIs para obtener datos tales como la hora, fecha, ciudad, zona horaria, etc según la ubicación (IP) del usuario y otra API que genera frases de forma aleatoria. La imagen del fondo varía según si es de noche o de día, al igual que el saludo y el ícono."
+      "description": "La aplicación muestra la hora y ubicación del visitante según su IP. El fondo de pantalla se adapta según la hora del día. También se muestran frases aleatorias."
     },
     "todo": {
       "title": "Lista de tareas",
@@ -44,10 +44,12 @@
     "title": "Estemos en contacto",
     "name": "Nombre",
     "email": "Correo electrónico",
-    "subject": "Asunto",
     "message": "Mensaje",
     "submit": "ENVIAR",
-    "designedBy": "2024 Diseñado con 💙 por"
-
+    "designedBy": "2024 Diseñado con 💙 por",
+    "messageSent": {
+      "title": "¡Mensaje Enviado!",
+      "description": "Su mensaje se ha enviado correctamente, espero responder dentro de 24 horas."
+    }
   }
 }
