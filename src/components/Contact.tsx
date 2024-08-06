@@ -30,7 +30,7 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="md:grid md:grid-cols-[40%_60%] lg:grid-cols-2 md:grid-rows-1 md:items-start md:gap-4 pt-[70px] sm:pt-[78px] pb-4 sm:pb-8 xl:pb-32 px-[5%] sm:px-[10%] xl:px-[15%] 2xl:px-[20%]">
+    <section id="contact" className="md:grid md:grid-cols-[40%_60%] lg:grid-cols-2 md:grid-rows-1 md:items-start md:gap-4 pt-[70px] sm:pt-[78px] pb-8 sm:pb-8 xl:pb-32 px-[5%] sm:px-[10%] xl:px-[15%] 2xl:px-[20%]">
       <h2 className="md:row-start-1 md:col-start-1 md:max-w-[70%] mb-6 text-2xl xl:text-3xl font-medium text-1000 dark:text-white">{t("contact.title")}</h2>
       <div className="md:row-start-1 md:col-start-1 md:mt-24 flex gap-4 mb-6">
         <a href="https://www.linkedin.com/in/enrique-hauenstein-8093662a4" target="_blank" className="flex justify-center items-center w-10 h-10  border-2 border-600 hover:border-700 active:border-800 dark:border-400 dark:hover:border-500 dark:active:border-600 rounded-full fill-600 hover:fill-700 active:fill-800 dark:fill-400 dark:hover:fill-500 dark:active:fill-600 "><Linkedin className={"fill-inherit"} width={20} height={20} /></a>
