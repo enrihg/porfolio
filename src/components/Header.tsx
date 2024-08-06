@@ -21,7 +21,7 @@ function Header() {
           <a href="https://github.com/enrihg" target="_blank" className="flex justify-center items-center w-10 h-10 border-2 border-600 hover:border-700 active:border-800 dark:border-400 dark:hover:border-500 dark:active:border-600 rounded-full fill-600 hover:fill-700 active:fill-800 dark:fill-400 dark:hover:fill-500 dark:active:fill-600 "><Github className={"fill-inherit"} width={20} height={20} /></a>
         </div>
       </div>
-      <img className="mx-auto sm:mx-0 sm:mt-4 max-w-[300px] sm:w-[220px] lg:w-[260px] xl:w-[300px] 2xl:w-[340px] sm:h-[220px] lg:h-[260px] xl:h-[300px] 2xl:h-[340px] dark:border-[1px] dark:border-500 p-1 rounded-full" src={profile} alt="profile picture" />
+      <img className="mx-auto sm:mx-0 sm:mt-4 max-w-[300px] sm:w-[220px] lg:w-[260px] xl:w-[300px] sm:h-[220px] lg:h-[260px] xl:h-[300px] dark:border-[1px] dark:border-500 p-1 rounded-full" src={profile} alt="profile picture" />
     </header>
   )
 }
